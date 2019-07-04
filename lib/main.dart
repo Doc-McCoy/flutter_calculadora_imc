@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
 
               Icon(Icons.person_outline, size: 120.0, color: Colors.green),
 
-              TextFormField(
+              TextFormField( // Precisa ser este ao invés do TextField para funcionar a validação
                 keyboardType: TextInputType.number, // Tipo de keyboard deste input
                 decoration: InputDecoration(
                     labelText: "Peso (kg)",
@@ -103,7 +103,7 @@ class _HomeState extends State<Home> {
                 },
               ),
 
-              TextFormField(
+              TextFormField( // Precisa ser este ao invés do TextField para funcionar a validação
                 keyboardType: TextInputType.number, // Tipo de keyboard deste input
                 decoration: InputDecoration(
                     labelText: "Altura (cm)",
