@@ -1,15 +1,23 @@
-# caltuladora_imc
+# Calculadora de IMC
 
-A new Flutter application.
+Calculadora de IMC, desenvolvida no Flutter.
 
-## Getting Started
+Segundo projeto [DESTE](https://www.udemy.com/curso-completo-flutter-app-android-ios/) curso na Udemy.
 
-This project is a starting point for a Flutter application.
+## Conteúdo ensinado
 
-A few resources to get you started if this is your first Flutter project:
+Neste projeto foram vistos os seguintes tópicos:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Scafford (O layout básico do material design.)
+- AppBar (Barra de título do Scafford)
+- SingleChildScrollView (Widget que permite rolar a tela para cima e para baixo)
+- RaisedButton
+- Forms (Formulários com validação)
+- GlobalKey (Necessárias para a validação)
+- TextField
+- TextFormField (O mesmo que TextField porém com funcionalidades de validação)
+
+O código do projeto fica em `lib/main.dart`
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
